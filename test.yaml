@@ -25,7 +25,10 @@ default_attributes:
     - 0
     - 1
     - 2
-    - 3
+    - 4
+    - 5
+    - 6
+    - 7  
 
 override_attributes:
   openstack.network.openvswitch.tenant_network_type     : "gre2"
@@ -40,3 +43,16 @@ env_description:
   input_validation     : string
   default              : Daryl's environment with direct attributes
   enabled              : true
+
+
+env_description:
+  input_validation     : string
+  default              : Daryl's environment with direct attributes
+  enabled              : true
+
+
+env_description:
+  input_validation     : string
+  default              : Daryl's environment with direct attributes
+  enabled              : true
+    
