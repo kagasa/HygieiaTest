@@ -28,13 +28,13 @@ default_attributes:
     - 3
 
 override_attributes:
-  openstack.network.openvswitch.tenant_network_type     : "gre"
-  openstack.network.openvswitch.bridge_mappings         : ""
-  openstack.network.openvswitch.network_vlan_ranges     : ""
-  openstack.network.openvswitch.bridge_mapping_interface: ""
-  openstack.network.ml2.tenant_network_types            : "gre"
-  openstack.network.ml2.network_vlan_ranges             : ""
-  openstack.network.ml2.flat_networks                   : ""
+  openstack.network.openvswitch.tenant_network_type     : "gre2"
+  openstack.network.openvswitch.bridge_mappings         : "2"
+  openstack.network.openvswitch.network_vlan_ranges     : "2"
+  openstack.network.openvswitch.bridge_mapping_interface: "2"
+  openstack.network.ml2.tenant_network_types            : "gre2"
+  openstack.network.ml2.network_vlan_ranges             : "2"
+  openstack.network.ml2.flat_networks                   : "2"
 # This is optional. It is used to set the environment's description.
 env_description:
   input_validation     : string
