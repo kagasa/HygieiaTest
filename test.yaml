@@ -1,6 +1,6 @@
 default_attributes:
-  openstack.attribute_test.string           : "test1"
-  openstack.attribute_test.string_no_quotes : test1
+  openstack.attribute_test.string           : "test4"
+  openstack.attribute_test.string_no_quotes : test4
   openstack.attribute_test.integer          : 141
   openstack.attribute_test.boolean          : true1
   openstack.attribute_test.nothing          : 1
